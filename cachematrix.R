@@ -4,8 +4,9 @@
 ## matrix is not square.
 
 
-
-## This function creates a special "matrix" object to cache the inverse of the input matrix 
+## This function creates a special "matrix" object to cache the inverse of the input matrix. This
+## special "matrix" object is a list containing funcions to set the value of a matrix, get the value
+## of the matrix, set the value of inverse of a matrix and get the value of the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         
